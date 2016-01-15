@@ -1,4 +1,4 @@
-Android application(API 21) for showing data from IoT reservoir backend system, which measures water level in a reserovir on a remote localtion.
+Android application(API 21) for showing data from IoT reservoir backend system, which measures water level in a reserovir on a remote location.
 Data is then send to RPi from where is uploaded to the database.
 App requires login with username and password.
 Main screen show today's measurements. In ApplicationBar are two buttons. First one is for refresing data and the second one opens screen with statistical data.
