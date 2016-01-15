@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WaterLevel</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="stats">Open stats</string>
+    <string name="statistics">Graph for today</string>
+    <string name="dataToday">Statistics for today</string>
+    <string name="dataAll">All time statistics</string>
+</resources>
