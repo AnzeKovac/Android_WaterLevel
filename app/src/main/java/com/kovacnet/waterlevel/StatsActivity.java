@@ -163,6 +163,31 @@ public class StatsActivity extends AppCompatActivity {
 
 
     }
+    class Motor{  
+    	
+    	motor1(){System.out.println("emtying and filling motors");}  
+    Scanner reader = new Scanner(System.in);  // Reading from System.in
+    motor1 b=new motor1();
+    System.out.println("please enter the maximum water level");
+    int n = reader.nextInt();
+if (data.getMaxWT>n ) {
+	motor1 true;
+}
+else if(getMaxWT<n) {
+	motor1 false;
+}
+
+motor2 b=new motor2();
+System.out.println("please enter the minimum water level");
+int m = reader.nextInt();
+if (data.getMinWT()>m ) {
+motor2 true;
+}
+else if(data.getMinWT()T<m) {
+motor2 false;
+}
+
+
 
     private class Add extends AsyncTask<Void, Void, String> {
         private String SERVICE_URL = "http://reservoirlevel.azurewebsites.net/getStats.php";
